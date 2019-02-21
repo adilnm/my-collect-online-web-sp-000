@@ -10,7 +10,7 @@ end
 collection
 end
 
-array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
-my_collect(array) do |name|
-puts"#{name.split(" ").first}"
+collection = ['ruby', 'javascript', 'python', 'objective-c']
+my_collect(collection) do |lang|
+  puts"lang.upcase""
 end
