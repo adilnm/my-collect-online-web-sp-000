@@ -7,7 +7,6 @@ while i < array.length
 yield array[i]
 i+=1
 end
-collection
 end
 
 collection = ['ruby', 'javascript', 'python', 'objective-c']
